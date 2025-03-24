@@ -8,6 +8,9 @@ package fizzbuzz2;
  *
  * @author Lecturer
  */
+
+import java.util.Scanner;
+
 public class FizzBuzz2 {
 
     /**
@@ -22,6 +25,12 @@ public class FizzBuzz2 {
         If a number is divisible by both, print FizzBuzz
         
         */
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Enter a number: ");
+            int number = scanner.nextInt();
+        scanner.close();
     }
     
 }
